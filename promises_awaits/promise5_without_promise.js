@@ -1,4 +1,4 @@
-const fs = require('fs');
+const fs = require('fs'); //for file system
 
 console.log('START');
 
@@ -6,10 +6,4 @@ console.log('START');
 fs.readFile('cx1.txt',(err,data)=>{
     console.log(data.toString());
 });
-
 console.log('END')
-
-//With Promise
-new Promise((resolve,reject)=>{
-    
-})
